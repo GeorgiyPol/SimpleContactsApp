@@ -13,6 +13,8 @@
 		40F91D9A292F4BC6000482EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40F91D98292F4BC6000482EA /* LaunchScreen.storyboard */; };
 		40F91DA9292F4D3D000482EA /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F91DA8292F4D3D000482EA /* Contact.swift */; };
 		40F91DAC292F4D5D000482EA /* ContactAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F91DAB292F4D5D000482EA /* ContactAPI.swift */; };
+		40F91DAE292F4DAE000482EA /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F91DAD292F4DAE000482EA /* ContactTableViewCell.swift */; };
+		40F91DB0292F4DC0000482EA /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F91DAF292F4DC0000482EA /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		40F91D9B292F4BC6000482EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40F91DA8292F4D3D000482EA /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		40F91DAB292F4D5D000482EA /* ContactAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactAPI.swift; sourceTree = "<group>"; };
+		40F91DAD292F4DAE000482EA /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
+		40F91DAF292F4DC0000482EA /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,8 @@
 		40F91DA6292F4CBA000482EA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				40F91DAD292F4DAE000482EA /* ContactTableViewCell.swift */,
+				40F91DAF292F4DC0000482EA /* SettingsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -194,7 +200,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				40F91DA9292F4D3D000482EA /* Contact.swift in Sources */,
+				40F91DAE292F4DAE000482EA /* ContactTableViewCell.swift in Sources */,
 				40F91DAC292F4D5D000482EA /* ContactAPI.swift in Sources */,
+				40F91DB0292F4DC0000482EA /* SettingsView.swift in Sources */,
 				40F91D92292F4BC6000482EA /* ContactViewController.swift in Sources */,
 				40F91D8E292F4BC6000482EA /* AppDelegate.swift in Sources */,
 			);
